@@ -33,7 +33,7 @@ public class avião {
 		this.anoDeFabricação = anoDeFabricação;
  	}
 	
-	public String Prefixo() {
+	public String getPrefixo() {
 		return prefixo;
 	}
 	public String getModelo() {
@@ -42,7 +42,7 @@ public class avião {
 	public String getfabricante() {
 		return fabricante;
 	}
-	public int anoDeFabricação() { 
+	public int getanoDeFabricação() { 
 	     return anoDeFabricação;   
 	}
     
